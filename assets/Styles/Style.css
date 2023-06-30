@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.FlexContainer {
+    display: flex;
+    height: 730px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: aliceblue;
+    /* border: 1px solid black; */
+    background-image: url('../images/Noise.png');
+    background-color: #51636C;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+    flex-basis: 60vw;
+    justify-content: center;
+}
+
+li {
+    padding-top: 2vh;
+    margin-left: 6vw;
+}
+
+.GridContainer {
+    display: grid;
+    grid-template-columns: 174px 174px;
+    grid-template-rows: 163px repeat(2,174px) 129px ;
+    column-gap: 35px;
+    row-gap: 30px;
+}
+
+.Block1 {
+
+    background-image: url('../images/5.jpg');
+}
+
+.Block2 {
+
+    background-image: url('../images/10.jpg');
+}
+
+.Block3 {
+
+    background-image: url('../images/4.jpg');
+}
+
+.Block4 {
+
+    background-image: url('../images/9.jpg');
+}
+
+.Block5 {
+
+    background-image: url('../images/3.jpg');
+}
+
+.Block6 {
+
+    background-image: url('../images/8.jpg');
+}
+
+.Block7 {
+
+    background-image: url('../images/2.jpg');
+}
+
+.Block8 {
+
+    background-image: url('../images/7.jpg');
+}
